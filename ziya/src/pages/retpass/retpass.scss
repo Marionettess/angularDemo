@@ -1,0 +1,39 @@
+
+page-login {
+
+}
+
+.rp-content{
+    background-image: url("../assets/imgs/login-bg.png");
+    background-size: 100%;
+    text-align: center;
+}
+.rp-content p{
+    font-size: 13px;
+    color: white;
+}
+
+.rp-input-1{
+    margin-top: 35px;
+}
+.rp-input{
+    margin-left: 10%;
+    background-color:transparent !important;
+    color: white;
+    width: 80%;
+}
+.rp-input-2{
+    margin-top: 15px;
+}
+.rp-input-2 ion-label{
+    font-size: 12px;
+}
+.rp-it-i{
+    width: 20px;
+}
+.rp-btn{
+    margin-top: 40px;
+    width: 70%;
+    height: 45px;
+    font-size: 17px;
+}

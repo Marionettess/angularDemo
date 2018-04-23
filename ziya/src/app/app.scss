@@ -1,0 +1,135 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+@font-face {
+  font-family: 'Ionicons';  /* project id 623557 */
+  src: url('//at.alicdn.com/t/font_623557_mzt4ml4szag7gb9.eot');
+  src: url('//at.alicdn.com/t/font_623557_mzt4ml4szag7gb9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_623557_mzt4ml4szag7gb9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_623557_mzt4ml4szag7gb9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_623557_mzt4ml4szag7gb9.svg#iconfont') format('svg');
+}
+/*@font-face {
+  font-family: 'Ionicons';  /* project id 623557 
+  src: url('//at.alicdn.com/t/font_623557_cyxu1asd6vwjyvi.eot');
+  src: url('//at.alicdn.com/t/font_623557_cyxu1asd6vwjyvi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_623557_cyxu1asd6vwjyvi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_623557_cyxu1asd6vwjyvi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_623557_cyxu1asd6vwjyvi.svg#iconfont') format('svg');
+}*/
+  
+.icon{
+  font-family:"Ionicons" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*.ion-ios-home:before{
+  content: "\e66c";
+}
+.ion-ios-home-outline:before{
+  content: "\e66c"; 
+}*/
+.ion-ios-mk:before{
+  content: "\e6ef";
+}
+.ion-ios-mk-outline:before{
+  content: "\e6ef"; 
+}
+.ion-ios-pic:before{
+  content: "\e69b";
+}
+.ion-ios-pic-outline:before{
+  content: "\e69b"; 
+}
+
+.ion-ios-menu:before{
+  content: "\e608";
+}
+.ion-ios-menu-outline:before{
+  content: "\e608"; 
+}
+
+/*.ion-ios-search:before{
+  content: "\e71e";
+}
+.ion-ios-search-outline:before{
+  content: "\e71e"; 
+}*/
+
+.ion-ios-login:before{
+  content: "\e63a";
+}
+.ion-ios-login-outline:before{
+  content: "\e63a"; 
+}
+
+.ion-ios-register:before{
+  content: "\e683";
+}
+.ion-ios-register-outline:before{
+  content: "\e683"; 
+}
+
+.ion-ios-fabu:before{
+  content: "\e643";
+}
+.ion-ios-fabu-outline:before{
+  content: "\e643"; 
+}
+
+.ion-ios-xiaoxi:before{
+  content: "\e60d";
+}
+.ion-ios-xiaoxi-outline:before{
+  content: "\e60d"; 
+}
+
+.ion-ios-chakan:before{
+  content: "\e64b";
+}
+.ion-ios-chakan-outline:before{
+  content: "\e64b"; 
+}
+
+.ion-ios-me:before{
+  content: "\e620";
+}
+.ion-ios-me-outline:before{
+  content: "\e620"; 
+}
+
+.ion-ios-arrow-forward:before{
+  content: "\e623";
+}
+.ion-ios-arrow-forward-outline:before{
+  content: "\e623";
+}
+
+.ion-ios-back:before{
+  content: "\e621";
+}
+.ion-ios-back-outline:before{
+  content: "\e621"; 
+}
+.ion-md-back:before{
+  content: "\e621";
+}
+.ion-md-back-outline:before{
+  content: "\e621"; 
+}
