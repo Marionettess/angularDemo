@@ -15,10 +15,10 @@
 
 <ion-content class="mess-content">
   <ion-list class="mess-list">
-    <ion-item no-lines class="mess-item" (click)="pushMorePage()">
+    <ion-item no-lines class="mess-item" (click)="pushMorePage(item[0])">
       <img src="assets/imgs/me-toux.png" alt="">
       <div class="mess-item-d-1">
-        <p class="p1">资芽小助手</p>
+        <p class="p1">{{pname[0]}}</p>
         <p class="p2">请问有什么..</p>
       </div>
       <div class="mess-item-d-2">
@@ -28,10 +28,10 @@
         <ion-icon name="arrow-forward" color="dark"></ion-icon>
       </button>
     </ion-item>
-    <ion-item no-lines class="mess-item" (click)="pushMorePage()">
+    <ion-item no-lines class="mess-item" (click)="pushMorePage(item[1])">
       <img src="assets/imgs/me-toux.png" alt="">
       <div class="mess-item-d-1">
-        <p class="p1">系统消息</p>
+        <p class="p1">{{pname[1]}}</p>
         <p class="p2">请问有什么..</p>
       </div>
       <div class="mess-item-d-2">
@@ -41,7 +41,7 @@
         <ion-icon name="arrow-forward" color="dark"></ion-icon>
       </button>
     </ion-item>
-    <ion-item no-lines class="mess-item" (click)="pushMorePage()">
+    <ion-item no-lines class="mess-item" (click)="pushMorePage(item[2])">
       <img src="assets/imgs/me-toux.png" alt="">
       <div class="mess-item-d-1">
         <p class="p1">张先生</p>
@@ -54,7 +54,7 @@
         <ion-icon name="arrow-forward" color="dark"></ion-icon>
       </button>
     </ion-item>
-    <ion-item no-lines class="mess-item" (click)="pushMorePage()"> 
+    <ion-item no-lines class="mess-item" (click)="pushMorePage(item[3])"> 
       <img src="assets/imgs/me-toux.png" alt="">
       <div class="mess-item-d-1">
         <p class="p1">张扬</p>
@@ -67,7 +67,7 @@
         <ion-icon name="arrow-forward" color="dark"></ion-icon>
       </button>
     </ion-item>
-    <ion-item no-lines class="mess-item" (click)="pushMorePage()">
+    <ion-item no-lines class="mess-item" (click)="pushMorePage(item[4])">
       <img src="assets/imgs/me-toux.png" alt="">
       <div class="mess-item-d-1">
         <p class="p1">李女士</p>
@@ -80,7 +80,7 @@
         <ion-icon name="arrow-forward" color="dark"></ion-icon>
       </button>
     </ion-item>
-    <ion-item no-lines class="mess-item" (click)="pushMorePage()">
+    <ion-item no-lines class="mess-item" (click)="pushMorePage(item[5])">
       <img src="assets/imgs/me-toux.png" alt="">
       <div class="mess-item-d-1">
         <p class="p1">东方资产管..</p>
