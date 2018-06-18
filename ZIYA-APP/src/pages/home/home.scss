@@ -1,0 +1,143 @@
+page-home {
+
+}
+ion-slide{
+    
+}
+.home-navbar{
+    text-align: center;
+}
+.logo-nav{
+    float: left;
+    width: 72%;
+
+}
+.logo-nav img{
+    width: 38%;
+}
+.home-content{
+    background-color: #f9f9f9;
+}
+.slide1{
+    height: 30%;
+    width: 100%;
+    padding: 0;
+}
+.home-segment{
+    background-color: #fff;
+}
+.grid1{
+    margin-top: -8%;
+    text-align: center;
+    padding: 0;
+}
+.slide2{
+    padding: 0;
+    height: 40%;
+}
+.swiper-container-android .swiper-slide, .swiper-wrapper{
+    background-color: #fff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.icol img{
+    width: 25px;
+    height: 25px;
+}
+.icol p{
+    font-size:12px ;
+    margin-top: 13px;
+    font-weight: 500;
+}
+.icol ion-col{
+    border: #ebebeb solid 1px;   
+    padding: 10px;
+    border-left:none;
+}
+.iro ion-col{
+    border-top:none;
+}
+.iro img{
+    width: 25px;
+    height: 25px;
+}
+.iro p{
+    font-size:12px ;
+    margin-top: 13px;
+    font-weight: 500;
+}
+.iro ion-col{
+    border: #ebebeb solid 1px;   
+    padding: 10px;
+    border-left:none;
+}
+.search{
+    background-color:#ffffff
+}
+.slider{
+    white-space: nowrap;
+    height: 50px;
+    width: 50px;
+}
+#list{
+    margin-top: 10px;
+    border-top: 1px solid #f0f0f0;
+    margin-bottom: 0;
+}
+#list img{
+    width: 7%;
+}
+.home-it-divider{
+    border-top: 1px solid #f0f0f0 !important;
+    height: 20px;
+}
+.home-it-divider{
+    color: #71594b;
+}
+.home-it-divider a{
+    color: #999999;
+}
+.home-item{
+    border-top: 1px solid #f0f0f0 !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+    margin-bottom: 10px;
+}
+.home-item img{
+    width: 15%;
+    height: 15%;
+}
+// .scroll1{
+//     margin: 0 
+
+// }
+.list-div1{
+    margin-left: 5px;
+    float: left;
+}
+.list-div1 p{
+    font-size: 12px;
+}
+.list-div2{
+    float: left;
+    margin-left: 15%;
+    margin-top: 5px;
+}
+.list-div-1{
+    float: left; 
+}
+.list-div-1 p{
+    font-size: 12px;
+}
+.list-div-2{
+    float: left; 
+    margin-left: 20px;
+}
+.list-div-2 p{
+    font-size: 12px;
+}
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon{
+    color:yellow;
+}
+.swiper-pagination-bullet-active{
+    background: yellow;
+}

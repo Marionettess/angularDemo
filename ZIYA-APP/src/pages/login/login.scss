@@ -1,0 +1,43 @@
+
+page-login {
+    ion-header{
+        text-align: center;
+    }
+}
+
+.logo{
+    margin-top: 30px;
+    text-align: center;
+}
+.login-content{
+    background-image: url("../assets/imgs/login-bg.png");
+    background-size: 100%;
+    text-align: center;
+}
+.login-content p{
+    font-size: 15px;
+    color: white;
+}
+.logo p{
+    font-size: 18px;
+}
+.login-input{
+    margin-left: 13%;
+    background-color:transparent !important;
+    color: white;
+    width: 70%;
+}
+.l-it-i{
+    width: 25px;
+}
+.login-btn{
+    margin-top: 20px;
+    width: 70%;
+    height: 45px;
+    font-size: 17px;
+}
+.login-wj{
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+}
