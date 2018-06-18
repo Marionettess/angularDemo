@@ -1,0 +1,44 @@
+page-sexx {
+    ion-header{
+        ion-navbar{
+            button{
+                float: left;
+            }
+            ion-title{
+                float: left;
+                margin-left: 30%;
+                line-height: 32px;
+            }
+        }
+        ion-searchbar{
+            background-color: #fedb47 !important;
+        }
+        .searchbar-md .searchbar-input{
+            border-radius: 20px !important;
+        }
+    }
+    ion-content{
+        text-align: center;
+        background-color: #f9f9f9 !important;
+        ion-list{
+            .item1{
+                height: 30px;
+                text-align: center;
+                .button{
+                    width: 33%;
+                    font-size: 14px;
+                }
+                .button{
+                    border-right: 1px solid #eeeeee;
+                }
+                
+            }
+            .home-it-divider{
+                text-align: left;
+                height: 20px;
+                margin-top: 10px;
+            }
+        }
+
+    }
+}

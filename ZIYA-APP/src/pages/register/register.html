@@ -1,0 +1,44 @@
+<!--
+  Generated template for the RegisterPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+    <ion-navbar color="none" >
+      <ion-title>手机注册</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content class="re-content">
+    <ion-item class="re-input re-input-1">
+      <ion-label><img class="re-it-i" src="assets/imgs/re-01.png" alt=""></ion-label>
+      <ion-input type="text" placeholder="手机号"></ion-input>
+    </ion-item>
+    <ion-item class="re-input">
+        <ion-label><img class="re-it-i" src="assets/imgs/re-02.png" alt=""></ion-label>
+        <ion-input type="text" placeholder="请输入验证码"></ion-input>
+        <button ion-button item-end color="yellow" class="re-it-btn">获取验证码</button>
+    </ion-item>
+    <ion-item class="re-input">
+      <ion-label><img class="re-it-i" src="assets/imgs/re-03.png" alt=""></ion-label>
+      <ion-input type="password" placeholder="请输入密码"></ion-input>
+    </ion-item>
+    <ion-item class="re-input">
+        <ion-label><img class="re-it-i" src="assets/imgs/re-04.png" alt=""></ion-label>
+        <ion-input type="password" placeholder="请再次输入密码"></ion-input>
+    </ion-item>
+    <button class="re-btn" ion-button round color="yellow">注册</button>
+    <ion-item class="re-input re-input-2" no-lines>
+      <ion-label>我已阅读并同意《资芽网注册协议》</ion-label>
+      <ion-checkbox color="yellow"></ion-checkbox>
+    </ion-item>
+    <a (click)="pushGvrpPage()">点击阅读《资芽网注册协议》</a>
+
+    <!-- <ion-item>
+      <ion-label>Cucumber</ion-label>
+      <ion-checkbox [(ngModel)]="cucumber" (ionChange)="updateCucumber()"></ion-checkbox>
+    </ion-item> -->
+  </ion-content>
