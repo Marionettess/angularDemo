@@ -1,0 +1,228 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+/*@font-face {
+  font-family: 'Ionicons';  /* project id 623557 *
+  src: url('//at.alicdn.com/t/font_623557_yjxarru1l46os9k9.eot');
+  src: url('//at.alicdn.com/t/font_623557_yjxarru1l46os9k9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_623557_yjxarru1l46os9k9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_623557_yjxarru1l46os9k9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_623557_yjxarru1l46os9k9.svg#iconfont') format('svg');
+}*/
+@font-face {
+  font-family: 'Ionicons';
+  src: url('../assets/iconfont/iconfont.eot');
+  src: url('../assets/iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../assets/iconfont/iconfont.woff') format('woff'),
+  url('../assets/iconfont/iconfont.ttf') format('truetype'),
+  url('../assets/iconfont/iconfont.svg#iconfont') format('svg');
+}
+  
+.icon{
+  font-family:"Ionicons" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tabs-md .tab-button[aria-selected=true]{
+  color: #fedb47;
+}
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon{
+  color: #fedb47;
+}
+
+/*.ion-ios-home:before{
+  content: "\e66c";
+}
+.ion-ios-home-outline:before{
+  content: "\e66c"; 
+}*/
+.ion-ios-mk:before{
+  content: "\e6ef";
+}
+.ion-ios-mk-outline:before{
+  content: "\e6ef"; 
+}
+.ion-md-mk:before {
+  content: "\e6ef";
+}
+
+
+.ion-ios-pic:before{
+  content: "\e69b";
+}
+.ion-ios-pic-outline:before{
+  content: "\e69b"; 
+}
+.ion-md-pic:before {
+  content: "\e69b";
+}
+
+.ion-ios-menu:before{
+  content: "\e608";
+}
+.ion-ios-menu-outline:before{
+  content: "\e608"; 
+}
+.ion-md-menu1:before {
+  content: "\e608";
+}
+
+/*.ion-ios-search:before{
+  content: "\e71e";
+}
+.ion-ios-search-outline:before{
+  content: "\e71e"; 
+}*/
+
+.ion-ios-login:before{
+  content: "\e63a";
+}
+.ion-ios-login-outline:before{
+  content: "\e63a"; 
+}
+.ion-md-login:before {
+  content: "\e63a";
+}
+
+.ion-ios-register:before{
+  content: "\e683";
+}
+.ion-ios-register-outline:before{
+  content: "\e683"; 
+}
+.ion-md-register:before {
+  content: "\e683";
+}
+
+.ion-ios-fabu:before{
+  content: "\e643";
+}
+.ion-ios-fabu-outline:before{
+  content: "\e643"; 
+}
+.ion-md-fabu:before {
+  content: "\e643";
+}
+
+.ion-ios-xiaoxi:before{
+  content: "\e60d";
+}
+.ion-ios-xiaoxi-outline:before{
+  content: "\e60d"; 
+}
+.ion-md-xiaoxi:before {
+  content: "\e60d";
+}
+
+.ion-ios-chakan:before{
+  content: "\e64b";
+}
+.ion-ios-chakan-outline:before{
+  content: "\e64b"; 
+}
+.ion-md-chakan:before {
+  content: "\e64b";
+}
+
+.ion-ios-me:before{
+  content: "\e620";
+}
+.ion-ios-me-outline:before{
+  content: "\e620"; 
+}
+.ion-md-me:before {
+  content: "\e620";
+}
+
+.ion-ios-arrow-forward:before{
+  content: "\e6a3";
+}
+.ion-ios-arrow-forward-outline:before{
+  content: "\e6a3";
+}
+.ion-md-arrow-forward:before {
+  content: "\e6a3";
+}
+
+.ion-ios-arrow-back:before{
+  content: "\e679";
+}
+.ion-ios-arrow-back-outline:before{
+  content: "\e679"; 
+}
+.ion-md-back:before{
+  content: "\e679";
+}
+.ion-md-back-outline:before{
+  content: "\e679"; 
+}
+
+.ion-ios-more:before{
+  content: "\e684";
+}
+.ion-ios-more-outline:before{
+  content: "\e684"; 
+}
+.ion-md-more:before{
+  content: "\e684";
+}
+.ion-md-more-outline:before{
+  content: "\e684"; 
+}
+
+.ion-ios-sound:before{
+  content: "\e7a8";
+}
+.ion-ios-sound-outline:before{
+  content: "\e7a8"; 
+}
+.ion-md-sound:before{
+  content: "\e7a8";
+}
+.ion-md-sound-outline:before{
+  content: "\e7a8"; 
+}
+
+.ion-ios-emoji:before{
+  content: "\e64a";
+}
+.ion-ios-emoji-outline:before{
+  content: "\e64a"; 
+}
+.ion-md-emoji:before{
+  content: "\e64a";
+}
+.ion-md-emoji-outline:before{
+  content: "\e64a"; 
+}
+
+.ion-ios-add:before{
+  content: "\e6d9";
+}
+.ion-ios-add-outline:before{
+  content: "\e6d9"; 
+}
+.ion-md-add:before{
+  content: "\e6d9";
+}
+.ion-md-add-outline:before{
+  content: "\e6d9"; 
+}
+
+
